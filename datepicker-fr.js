@@ -1,11 +1,11 @@
 /**
  * Bootstrap datepicker fr-FR
  * 
- * todayHighlight
- * datesDisabled
- * startDate
+ *  @options
+ *  todayHighlight
+ *  datesDisabled
+ *  startDate
  */
-
 $.fn.datepicker.dates['fr'] = {
     days: ["dimanche", "lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi"],
     daysShort: ["dim.", "lun.", "mar.", "mer.", "jeu.", "ven.", "sam."],
@@ -18,7 +18,6 @@ $.fn.datepicker.dates['fr'] = {
     weekStart: 1,
     format: "dd/mm/yyyy"
 };
-
 $('#date-picker').datepicker({
     language: 'fr',
     todayHighlight: true,
