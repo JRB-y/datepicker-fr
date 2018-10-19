@@ -21,7 +21,6 @@ $.fn.datepicker.dates['fr'] = {
 $('#date-picker').datepicker({
     language: 'fr',
     todayHighlight: true,
-    datesDisabled: '02/06/2018',
     startDate: '+0d',
 });
 
